@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "selena-rescue")(type "KiCad")(uri "${KIPRJMOD}/selena-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "tvga9000i")(type "KiCad")(uri "/Users/alex/Projects/DIY/PC-XT/Mine/tvga9000i.kicad_sym")(options "")(descr ""))
+)
