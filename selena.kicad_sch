@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "4a1fd320-e82a-408b-bd41-eddf9c8578fa")
 	(paper "A2")
+	(title_block
+		(title "Selena Tseng ET4000 W32I ISA VGA Card")
+		(date "2025-09-13")
+		(rev "0.9.2")
+		(company "Alexander Petrov")
+	)
 	(lib_symbols
 		(symbol "74xx:74LS244"
 			(pin_names
