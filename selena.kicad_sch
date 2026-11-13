@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Selena Tseng ET4000 W32I ISA VGA Card")
-		(date "2025-09-13")
-		(rev "0.9.2")
+		(date "2026-11-13")
+		(rev "1.0.2")
 		(company "Alexander Petrov")
 	)
 	(lib_symbols
@@ -11166,6 +11166,27 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "U3 and U4 - 1st VRAM megabyte (linear mode)\nU1 and U2 - 2nd VRAM megabyte (interleave mode)"
+		(exclude_from_sim no)
+		(at 62.865 64.135 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee5ed161-4955-443f-8ce0-01245b6656dd")
+	)
+	(text "Only one chip U3 ort U'3 must be used."
+		(exclude_from_sim no)
+		(at 278.765 47.625 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd84c5b3-4747-4df0-841d-c1d91086ac27")
 	)
 	(junction
 		(at 84.455 168.275)
@@ -42369,6 +42390,72 @@
 			(project "selena"
 				(path "/4a1fd320-e82a-408b-bd41-eddf9c8578fa"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.255 121.285 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b99f6ad-33ac-4902-a04a-81f24d201523")
+		(property "Reference" "#PWR086"
+			(at 255.905 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 121.285 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.255 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.255 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.255 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d83555b-4ce5-4de6-b40d-bd7e5e15c5bc")
+		)
+		(instances
+			(project "selena"
+				(path "/4a1fd320-e82a-408b-bd41-eddf9c8578fa"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)

@@ -8,11 +8,16 @@
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
+*.kicad_pro-bak
+*.pro-bak
 *-backups
 *.kicad_prl
 *.sch-bak
 *~
+~*.lck
 _autosave-*
+_saved_*
+\#auto_saved_files\#
 *.tmp
 *-save.pro
 *-save.kicad_pcb
@@ -28,4 +33,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# macOS folder metadata
+.DS_Store
 

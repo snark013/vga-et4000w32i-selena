@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.39,
-          "width": 1.415
+          "height": 0.6,
+          "width": 2.05
         },
         "silk_line_width": 0.155,
         "silk_text_italic": false,
@@ -485,6 +485,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -1503,7 +1504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "gerbers/1.0.2",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
