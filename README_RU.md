@@ -2,6 +2,10 @@
 
 [English version](README.md)
 
+Основной репозиторий проекта: [git.snark13.com/snark13/selena](https://git.snark13.com/snark13/selena).
+
+Зеркало на GitHub: [github.com/snark013/vga-et4000w32i-selena](https://github.com/snark013/vga-et4000w32i-selena).
+
 Selena — видеокарта для 16-разрядной шины ISA на базе Tseng Labs ET4000/W32i. Проект выполнен в KiCad и использует двухслойную печатную плату.
 
 В основе Selena лежит проект [EXCELGRAPH ISA Video Display Controller](https://www.alexandrugroza.ro/microelectronics/system-design/isa-video-display-controller/index.html) Александру Грозы (Alexandru Groza). По сравнению с исходным проектом изменены компоновка, разводка и подключение видеопамяти; число слоёв платы сокращено с четырёх до двух.

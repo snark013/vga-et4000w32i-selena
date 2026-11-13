@@ -2,6 +2,10 @@
 
 [Русская версия](README_RU.md)
 
+Main project repository: [git.snark13.com/snark13/selena](https://git.snark13.com/snark13/selena).
+
+GitHub mirror: [github.com/snark013/vga-et4000w32i-selena](https://github.com/snark013/vga-et4000w32i-selena).
+
 Selena is a VGA graphics card for the 16-bit ISA bus, based on the Tseng Labs ET4000/W32i. The project is designed in KiCad and uses a two-layer PCB.
 
 Selena is based on Alexandru Groza’s [EXCELGRAPH ISA Video Display Controller](https://www.alexandrugroza.ro/microelectronics/system-design/isa-video-display-controller/index.html). It changes the component placement, routing, and video memory connections, and reduces the PCB layer count from four to two.
